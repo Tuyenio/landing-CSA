@@ -37,7 +37,9 @@ export function Footer() {
             <p className="text-muted-foreground">{t("footer.tagline")}</p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/ICS.anninhmangquocte/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-all hover:scale-110"
               >
                 <Facebook className="w-5 h-5" />
@@ -49,13 +51,17 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/channel/UCpOn4kxyTtzmUldsDZoxLHg"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-all hover:scale-110"
               >
                 <Youtube className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@ics_anm"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-all hover:scale-110"
               >
                 <Music className="w-5 h-5" />

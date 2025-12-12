@@ -15,74 +15,80 @@ export default function BlogPage() {
       title: language === "vi" ? "5 Mối đe dọa Endpoint phổ biến năm 2025" : "5 Common Endpoint Threats in 2025",
       excerpt:
         language === "vi"
-          ? "Tìm hiểu về các mối đe dọa bảo mật endpoint phổ biến nhất và cách phòng chống hiệu quả cho doanh nghiệp."
-          : "Learn about the most common endpoint security threats and how to effectively prevent them.",
+          ? "Endpoint security là lớp bảo vệ quan trọng nhất của mạng, bảo vệ chống lại 90% các cuộc tấn công mạng thành công."
+          : "Endpoint security is the critical first line of network defense, protecting against 90% of successful cyberattacks.",
       date: "2025-01-15",
       author: "ICS Security Team",
       readTime: language === "vi" ? "5 phút" : "5 min",
       category: language === "vi" ? "Bảo mật" : "Security",
       image: "/images/dashboard-health.png",
+      url: "https://www.ibm.com/think/topics/endpoint-security",
     },
     {
       title: language === "vi" ? "Hướng dẫn triển khai DLP cho Doanh nghiệp" : "DLP Deployment Guide for Enterprises",
       excerpt:
         language === "vi"
-          ? "Quy trình triển khai giải pháp chống thất thoát dữ liệu từ A đến Z cho mọi quy mô doanh nghiệp."
-          : "A to Z process of deploying data loss prevention solutions.",
+          ? "Data Loss Prevention (DLP) là công nghệ quan trọng để ngăn chặn mất mát dữ liệu và tuân thủ quy định pháp luật bảo vệ dữ liệu cá nhân."
+          : "Data Loss Prevention (DLP) technology is essential to prevent data breaches and comply with data protection regulations.",
       date: "2025-01-10",
       author: "Nguyễn Văn Minh",
       readTime: language === "vi" ? "8 phút" : "8 min",
       category: language === "vi" ? "Hướng dẫn" : "Guide",
       image: "/images/storage-control.png",
+      url: "https://www.ibm.com/think/topics/data-loss-prevention",
     },
     {
       title: language === "vi" ? "USB - Kẻ thù thầm lặng của Bảo mật" : "USB - The Silent Enemy of Security",
       excerpt:
         language === "vi"
-          ? "Tại sao USB lại là vector tấn công nguy hiểm nhất và cách kiểm soát hiệu quả trong môi trường doanh nghiệp."
-          : "Why USB is a dangerous attack vector and how to control it effectively.",
+          ? "Thiết bị USB là vector tấn công nguy hiểm nhất trong môi trường doanh nghiệp. Kiểm soát và quản lý USB là bước quan trọng để ngăn chặn mất dữ liệu."
+          : "USB devices are among the most dangerous attack vectors in enterprise environments. Proper USB control is critical for data protection.",
       date: "2025-01-05",
       author: "Trần Thị Lan",
       readTime: language === "vi" ? "6 phút" : "6 min",
       category: language === "vi" ? "Phân tích" : "Analysis",
       image: "/images/device-policy.png",
+      url: "https://www.ibm.com/think/topics/endpoint-security",
     },
     {
       title: language === "vi" ? "Nghị định 13 và Bảo vệ Dữ liệu Cá nhân" : "Decree 13 and Personal Data Protection",
       excerpt:
         language === "vi"
-          ? "Tìm hiểu về Nghị định 13/2023/NĐ-CP và cách CSA giúp doanh nghiệp tuân thủ quy định pháp luật."
-          : "Learn about Decree 13/2023/ND-CP and how CSA helps businesses comply.",
+          ? "Nghị định 13/2023/NĐ-CP yêu cầu các tổ chức áp dụng các biện pháp bảo mật đầy đủ. Giải pháp endpoint security giúp tuân thủ quy định này."
+          : "Decree 13/2023/ND-CP requires organizations to implement adequate security measures. Endpoint security solutions ensure compliance.",
       date: "2024-12-28",
       author: "ICS Legal Team",
       readTime: language === "vi" ? "10 phút" : "10 min",
       category: language === "vi" ? "Pháp lý" : "Legal",
       image: "/images/software-control.png",
+      url: "https://www.ibm.com/think/topics/data",
     },
     {
       title:
         language === "vi" ? "Kiểm soát ứng dụng Whitelist vs Blacklist" : "Application Control: Whitelist vs Blacklist",
       excerpt:
         language === "vi"
-          ? "So sánh hai phương pháp kiểm soát ứng dụng và hướng dẫn lựa chọn phù hợp cho doanh nghiệp của bạn."
-          : "Compare two application control methods and guide you to choose the right one for your business.",
+          ? "Phương pháp Whitelist (cho phép danh sách trắng) được chứng minh là hiệu quả hơn Blacklist trong việc ngăn chặn các ứng dụng độc hại và mất mát dữ liệu."
+          : "Whitelist application control has proven to be more effective than Blacklist in preventing malicious applications and data loss.",
       date: "2024-12-20",
       author: "Lê Hoàng Nam",
       readTime: language === "vi" ? "7 phút" : "7 min",
       category: language === "vi" ? "Công nghệ" : "Technology",
       image: "/images/software-control.png",
+      url: "https://www.ibm.com/think/topics/endpoint-security",
     },
     {
       title: language === "vi" ? "Tổng quan về An ninh mạng cho SMB" : "Cybersecurity Overview for SMBs",
       excerpt:
         language === "vi"
-          ? "Hướng dẫn toàn diện về bảo mật endpoint dành cho doanh nghiệp vừa và nhỏ với ngân sách hạn chế."
-          : "Comprehensive guide to endpoint security for small and medium businesses with limited budgets.",
+          ? "Bảo mật endpoint là yếu tố quan trọng nhất cho SMB. Tìm hiểu cách triển khai giải pháp bảo mật hiệu quả với ngân sách hạn chế."
+          : "Endpoint security is the most critical factor for SMBs. Learn how to implement effective security solutions within budget constraints.",
       date: "2024-12-15",
       author: "Phạm Minh Tuấn",
       readTime: language === "vi" ? "12 phút" : "12 min",
       category: language === "vi" ? "Doanh nghiệp" : "Enterprise",
       image: "/images/machine-status.png",
+      url: "https://www.ibm.com/think/topics/endpoint-security",
     },
   ]
 
@@ -115,47 +121,49 @@ export default function BlogPage() {
             {posts.map((post, index) => (
               <article
                 key={index}
-                className="bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all hover:-translate-y-2 duration-300 group"
+                className="bg-card border border-border rounded-2xl overflow-hidden hover:border-primary/50 transition-all hover:-translate-y-2 duration-300 group cursor-pointer"
               >
-                <div className="relative h-48 bg-secondary overflow-hidden">
-                  <img
-                    src={post.image || "/placeholder.svg"}
-                    alt={post.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-                  <div className="absolute top-4 left-4">
-                    <Badge className="bg-primary text-primary-foreground">{post.category}</Badge>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
-                    <div className="flex items-center gap-1">
-                      <Calendar className="w-4 h-4" />
-                      <span>{post.date}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <Clock className="w-4 h-4" />
-                      <span>{post.readTime}</span>
+                <a href={post.url} target="_blank" rel="noopener noreferrer" className="block h-full">
+                  <div className="relative h-48 bg-secondary overflow-hidden">
+                    <img
+                      src={post.image || "/placeholder.svg"}
+                      alt={post.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                    <div className="absolute top-4 left-4">
+                      <Badge className="bg-primary text-primary-foreground">{post.category}</Badge>
                     </div>
                   </div>
-                  <h2 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2 text-foreground">
-                    {post.title}
-                  </h2>
-                  <p className="text-muted-foreground mb-4 text-sm line-clamp-3">{post.excerpt}</p>
-                  <div className="flex items-center justify-between pt-4 border-t border-border">
-                    <div className="flex items-center gap-2 text-sm">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
-                        <User className="w-4 h-4 text-primary" />
+                  <div className="p-6">
+                    <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
+                      <div className="flex items-center gap-1">
+                        <Calendar className="w-4 h-4" />
+                        <span>{post.date}</span>
                       </div>
-                      <span className="text-muted-foreground text-xs">{post.author}</span>
+                      <div className="flex items-center gap-1">
+                        <Clock className="w-4 h-4" />
+                        <span>{post.readTime}</span>
+                      </div>
                     </div>
-                    <Button variant="ghost" size="sm" className="group/btn text-primary hover:text-primary">
-                      {t("blog.readMore")}
-                      <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
-                    </Button>
+                    <h2 className="text-lg font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2 text-foreground">
+                      {post.title}
+                    </h2>
+                    <p className="text-muted-foreground mb-4 text-sm line-clamp-3">{post.excerpt}</p>
+                    <div className="flex items-center justify-between pt-4 border-t border-border">
+                      <div className="flex items-center gap-2 text-sm">
+                        <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center">
+                          <User className="w-4 h-4 text-primary" />
+                        </div>
+                        <span className="text-muted-foreground text-xs">{post.author}</span>
+                      </div>
+                      <Button variant="ghost" size="sm" className="group/btn text-primary hover:text-primary">
+                        {t("blog.readMore")}
+                        <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
+                      </Button>
+                    </div>
                   </div>
-                </div>
+                </a>
               </article>
             ))}
           </div>
