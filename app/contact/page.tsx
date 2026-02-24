@@ -118,11 +118,19 @@ export default function ContactPage() {
               {language === "vi" ? "với ICS" : "Touch"}
             </span>
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             {language === "vi"
               ? "Đội ngũ ICS luôn sẵn sàng lắng nghe và hỗ trợ bạn 24/7"
               : "ICS team is always ready to listen and support you 24/7"}
           </p>
+          <Button
+            asChild
+            className="bg-gradient-to-r from-primary to-accent text-primary-foreground hover:opacity-90 h-11 px-8 text-base font-semibold"
+          >
+            <a href="https://icss.com.vn/gioi-thieu" target="_blank" rel="noopener noreferrer">
+              {language === "vi" ? "Về chúng tôi" : "About Us"}
+            </a>
+          </Button>
         </div>
       </section>
 

@@ -15,7 +15,11 @@ export const metadata: Metadata = {
     "CSA (cAIoT Security Architecture) - Phan mem bao mat endpoint hang dau Viet Nam. Kiem soat thiet bi, quan ly ung dung, chong that thoat du lieu cho doanh nghiep.",
   keywords: ["endpoint security", "bao mat endpoint", "DLP", "device control", "USB control", "ICS", "CSA"],
   authors: [{ name: "ICS - International Cyber Security" }],
-    generator: 'v0.app'
+    generator: 'v0.app',
+    icons: {
+    icon: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
 }
 
 export default function RootLayout({
